@@ -9704,3 +9704,52 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+/* General mobile fix */
+@media (max-width: 768px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+
+  .about-info p,
+  .about-info li {
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+
+  .img-about img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .skill-mf p, span, div {
+    font-size: 11px;
+    
+  }
+
+  .progress {
+    height: 8px;
+    border-radius: 6px;
+  }
+
+  .heading-section h1.big {
+    font-size: 36px;
+  }
+
+  .heading-section h2 {
+    font-size: 22px;
+  }
+
+  /* Add spacing so nothing touches screen edges */
+  #about-section {
+    padding: 20px 10px;
+  }
+}
